@@ -1,0 +1,281 @@
+<div id="container">
+
+    <div class="container main">
+        <div class="row">
+            <div class=" pull-left">
+                <div class="dropdown-menu-left ">
+                    数据结构
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="#xianxing">线性表</a>
+                        </li>
+                        <li class="list-group-item"><a href="#zhan">栈</a></li>
+                        <li class="list-group-item"><a href="#duilie">队列</a></li>
+                        <li class="list-group-item"><a href="#shu">树</a></li>
+                        <li class="list-group-item"><a href="#tu">图</a></li>
+                        <li class="list-group-item"><a href="#paixu">排序</a></li>
+                        <li class="list-group-item"><a href="#chazhao">查找</a></li>
+                    </ul>
+                </div>
+
+                <div class="dropdown-menu-left ">
+                    算法知识
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="#meiju">枚举法</a></li>
+                        <li class="list-group-item"><a href="#duitui">递推算法</a></li>
+                        <li class="list-group-item"><a href="#duigui">递归算法</a></li>
+                        <li class="list-group-item"><a href="#fenzhi">分治法</a></li>
+                        <li class="list-group-item"><a href="#tanlan">贪婪算法</a></li>
+                        <li class="list-group-item"><a href="#huisu">回溯算法</a></li>
+                        <li class="list-group-item"><a href="#diedai">迭代法</a></li>
+                        <li class="list-group-item"><a>分支限界法</a></li>
+                        <li class="list-group-item"><a>动态规划</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class=" pull-left">
+                <div>
+                    <div id="xianxing">
+                        <h4>
+                            线性表
+                        </h4>
+                    </div>
+                    <div>
+                        <p>
+                            线性表线性表（Linear List）是由n个数据元素的有限序列(a1,a2,…,an)组成，其中每一个数据元素ai的具体含义可以按不同的情况和要求定义具体的内容，
+                            <br />它可以是一个数、一个符号、一串文字，甚至是其他更复杂的信息。线性表中数据元素的个数n称为线性表的长度（Length）。 
+                        </p> 
+                     
+                    </div>
+                </div>
+                <div>
+                    <div id="zhan">
+                        <h4>
+                            栈
+                        </h4>
+                    </div>
+                    <div>
+                        <p>
+                            栈（Stack）是限制仅在表的一端进行插入和删除运算的线性表。向栈中插入元素称为进（入）栈，从栈中删除元素称为出（退）栈。
+                           <br /> 通常插入、删除的这一端称为栈顶（Stack Top），由于元素的进栈和退栈，使得栈顶的位置经常是变动的，因此需要用一个整型量Top指示栈顶的位置，
+                            <br /> 通常称Top 为栈顶指针；另一端称为栈底。当表中没有元素时称为空栈，即Top=-1。栈为后进先出（Last In First Out）的线性表，简称为LIFO表。
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div id="duilie">
+                        <h4>
+                            队列（Queue）
+                        </h4>
+                    </div>
+                    <div>
+                        <p>
+                            队列（Queue）是只允许在一端进行插入，而在另一端进行删除的运算受限的线性表。向队列中插入元素称为入队，从队列中删除元素称为出队。
+                            <ul>
+                                <li>(1)允许删除的一端称为队头（Front）。</li>
+                                <li>(2)允许插入的一端称为队尾（Rear）。</li>
+                                <li>(3)当队列中没有元素时称为空队列。</li> 
+                                <li>(4)队列亦称作先进先出（First In First Out）的线性表，简称为FIFO表。</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div id="shu">
+                        <h4>
+                            树（Tree）
+                        </h4>
+                    </div>
+                    <div>
+                        <p>
+                            树（Tree）是n(n≥0)个结点的有限集T，T为空时称为空树，否则它满足如下两个条件：
+                            <br />①有且仅有一个特定的称为根（Root）的结点；
+                           <br /> ②其余的结点可分为m(m≥0)个互不相交的有限子集Tl，T2，…，Tm，其中每个子集本身又是一棵树，并称其为根的子树（SubTree）。
+
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div id="tu">
+                        <h4>
+                            图
+                        </h4>
+                    </div>
+                    <div>
+                        <p>
+                            图（Graph）的二元组定义：
+                            <br /> 图G由两个集合V和E组成，记为：G=(V，E) 其中：V是有限的非空集合，V中的元素称为顶点（Vertex）或结点，E是V中顶点偶对(vi,vj)的集合，
+                            <br />E中的元素称为边（Edge）。
+                            <br />说明：图G的顶点集和边集也可记为V(G)和E(G)。E(G)可以是空集，若为空，则图G只有顶点没有边；图中的边(vi,vj)描述了两个顶点之间是相关的。
+
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div id="paixu">
+                        <h4>
+                            排序
+                        </h4>
+                    </div>
+                    <div>
+                        <p>
+                            排序：将数据元素（或记录）的任意序列，通过某些方法重新排列成一个按关键字有序（递增或递减）的序列的过程称为排序
+
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div id="chazhao">
+                        <h4>
+                           查找
+                        </h4>
+                    </div>
+                    <div>
+                        <p>
+                            给定一个值K，在含有n个结点的表中找出关键字等于给定值K的结点。若找到，则查找成功，返回该结点的信息或该结点在表中的位置；
+                            <br/>否则查找失败，返回相关的指示信息。
+
+                        </p>
+                    </div>
+                </div>
+                
+
+                <div>
+                    <div id="meiju">
+                        <h4>
+                            枚举法
+                        </h4>
+                    </div>
+                    <div>
+                        <p>
+                            枚举法是根据问题中的条件将可能的情况一一列举出来，逐一尝试从中找出满足问题条件的解。但有时一一列举出的情况数目很大，
+                            <br />如果超出了所有忍受的范围，则需要进一步考虑，排除一些明显不合理的情况尽可能减少问题可能的列举数目
+                           <br /> 用枚举解决问题，通常可以从两个方面进行算法设计：
+                            <br /> 1、	找出枚举范围：分析问题所涉及的各种情况。
+                            <br /> 2、	找出约束条件：分析问题的解需要满足的条件，并用逻辑
+
+                        </p>
+
+                    </div>
+                </div>
+                <div>
+                    <div id="duitui">
+                        <h4>
+                            递推算法
+                        </h4>
+                    </div>
+                    <div>
+                        <p>
+                            通过已知的某个条件，利用特定的关系得出中间推论，，然后逐步递推，知道得到结果为止。
+                           <br /> 顺推法：从已知的条件出发，逐步推算出要解决问题的方法。
+                            <br />逆推法：从已知的结果出发，用迭代表达式逐步推算出问题开始的条件。
+                        </p>
+                    </div>
+                </div>
+                
+                <div>
+                    <div id="duigui">
+                        <h4>
+                            递归算法
+                        </h4>
+                    </div>
+                    <div>
+                        <p>
+                            递归是一个过程或函数在其定义或说明中又直接或间接调用自身的一种方法。
+                           <br /> 递归算法设计，就是把一个大型复杂的问题层层转化为一个与原问题相似的规模较小的问题，在逐步求解小问题后，在返回得到大问题的解。
+                            <br /> 递归算法只须少量的步骤就可描述出解题过程所需要的多次重复计算，大大地减少了算法的代码量。
+
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div id="fenzhi">
+                        <h4>
+                            分治法
+                        </h4>
+                    </div>
+                    <div>
+                        <p>
+                            分治法求解问题的过程是，将整个问题分解成若干个小问题后分而治之。如果分解到的子问题相对来说还太大，则可反复使用分治策略将这些子问题的解
+                            <br />分成更小的同类型子问题，直至产生出方便求解的子问题，必要时逐步合并这些子问题的解，从而得到问题的解。
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div id="tanlan">
+                        <h4>
+                            贪婪算法
+                        </h4>
+                    </div>
+                    <div>
+                        <p>
+                            贪婪算法也叫贪心算法，它在求解问题时总想用在当前看来是最好的方法来实现。此种算法思想不从整体最优上考虑问题，仅是在某种意义上的局部最优求解。
+                           <br /> 虽然贪心算法不是对所有问题都能得到整体最优解，但是面对范围相当广泛的许多问题时，能产生整体最优解或者是整体最优解的近似解。
+                            <br /> 由此可见贪心算法只是追求某范围内的最优。
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div id="huisu">
+                        <h4>
+                            回溯算法
+                        </h4>
+                    </div>
+                    <div>
+                        <p>
+                            回溯算法是尝试搜索算法中最为基本的一种算法，其采用了一种“走不通就掉头”的思想，作为其控制结构。在用回溯算法解决问题中没向前走一步都有很多
+                           <br /> 路需要选择，但当没有决策的信息或决策的信息不充分时，只好尝试某一路线向下走，到一定程度后得知此路不通时，再回溯到上一步尝试其它路线；
+                            <br />  当然在尝试成功时，则问题得解算法结束。
+
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div id="diedai">
+                        <h4>
+                            迭代法
+                        </h4>
+                    </div>
+                    <div>
+                        <p>
+                            迭代法也被称为辗转法，是以一种不断用变量的旧值递推新值得过程，在解决问题时总是重复利用一种方法。
+
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div >
+                        <h4>
+                            分支限界法
+
+                            @Html.ActionLink("编辑", "test")
+                            <a href="/studyMain/View1">/Views/studyMain/View1.cshtml</a>
+                        </h4>
+                    </div>
+                    <div>
+                        <p>
+                           
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h4>
+                            动态规划
+                        </h4>
+                    </div>
+                    <div>
+                        <p>
+                           
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
